@@ -17,7 +17,11 @@ function move(blocks, from, to) {
 
 function Block({ value, ...props }) {
   return (
-    <div {...props} className="hanoi-block" style={{ width: value * 24 }}></div>
+    <div
+      {...props}
+      className="hanoi-block"
+      style={{ width: `${value * 3}vw` }}
+    ></div>
   );
 }
 
