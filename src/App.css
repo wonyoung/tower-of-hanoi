@@ -2,13 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +13,56 @@
   color: white;
 }
 
+.App-body {
+  height: 40vmin;
+  display: flex;
+  justify-content: center;
+}
+
+.App-tail {
+  height: 20vmin;
+}
 .App-link {
   color: #09d3ac;
+}
+
+.hanoi-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.hanoi-block-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  padding: 10px;
+}
+.hanoi-block {
+  height: 20px;
+  margin: 2px;
+  background-color: lightskyblue;
+  border: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.hanoi-bottom {
+  height: 20px;
+  margin: 2px;
+  background-color: sandybrown;
+  border-width: 1px;
+  width: 100%;
+}
+.hanoi-desc {
+  font-size: xx-large;
+}
+
+.sol-highlight {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+.sol-normal {
+
 }
