@@ -73,7 +73,7 @@ function App() {
   const handleInputNum = e => {
     if (e.keyCode === 13) {
       const num = Number(e.target.value);
-      if (!isNaN(num) && num < 11) {
+      if (num > 0 && num < 11) {
         const blks = createTowers(num);
         setBlocks(blks);
         setCursor(0);
